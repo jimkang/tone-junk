@@ -1,0 +1,58 @@
+{
+  "name": "tone-junk",
+  "version": "1.0.0",
+  "description": "Messing with tone.js",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "make test",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "echo \"Include start so that it doesn't kill rollup -w, but don't call sirv so that we can call it ourselves in the rollup config and in the Makefile and have it use different working directories.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/tone-junk.git"
+  },
+  "keywords": [
+    "cubes"
+  ],
+  "author": "Jim Kang",
+  "bugs": {
+    "url": "https://github.com/jimkang/tone-junk/issues"
+  },
+  "homepage": "https://github.com/jimkang/tone-junk",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "@types/tape": "^4.2.34",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "assert-no-error": "^1.0.0",
+    "eslint": "^7.25.0",
+    "longjohn": "^0.2.12",
+    "rollup": "^2.35.1",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^0.4.4",
+    "tape": "^4.13.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.9.7",
+    "uglify-es": "^3.3.9"
+  },
+  "dependencies": {
+    "@jimkang/randomid": "^1.0.2",
+    "@types/node": "^12.12.7",
+    "handle-error-web": "^1.0.1",
+    "rollup-plugin-livereload": "^2.0.0",
+    "route-state": "^2.0.5",
+    "seedrandom": "^3.0.1",
+    "tslib": "^2.0.3",
+    "uuid": "^8.3.2",
+    "verror": "^1.10.0"
+  },
+  "prettier": {
+    "printWidth": 80
+  }
+}
