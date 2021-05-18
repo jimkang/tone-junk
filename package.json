@@ -48,6 +48,7 @@
     "rollup-plugin-livereload": "^2.0.0",
     "route-state": "^2.0.5",
     "seedrandom": "^3.0.1",
+    "tone": "^14.8.25",
     "tslib": "^2.0.3",
     "uuid": "^8.3.2",
     "verror": "^1.10.0"
